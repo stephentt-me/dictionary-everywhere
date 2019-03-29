@@ -1,5 +1,5 @@
 {
-  "author": "Suraj Jain",
+  "author": "Stephen Truong Trung Hieu",
 
   "manifest_version": 2,
   "name": "Dictionary Anywhere",
@@ -22,5 +22,4 @@
   "permissions": [
     "https://www.google.com/"
   ]
-
 }
