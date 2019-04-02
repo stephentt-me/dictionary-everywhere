@@ -2,20 +2,21 @@
   "author": "Stephen Truong Trung Hieu",
 
   "manifest_version": 2,
-  "name": "Dictionary Anywhere",
-  "version": "0.4",
+  "name": "Dictionary Lookup",
+  "version": "1.0",
 
   "description": "View definitions easily as you browse the web. Double-click any word to view its definition in a small pop-up bubble.",
 
   "icons": {
-    "48": "icons/Dictionary-48.png",
-    "96": "icons/Dictionary-96.png"
+    "64": "icons/book-64.png",
+    "128": "icons/book-128.png"
   },
 
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
-      "js": ["dictionary.js"]
+      "js": ["src/googleDictionary.js", "src/dictionary.js"],
+      "css": ["src/style.css"]
     }
   ],
 
